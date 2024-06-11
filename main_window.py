@@ -242,7 +242,7 @@ class Ui_MainWindow(object):
         self.le_db.setText(_translate("MainWindow", "farmers_markets1"))
         self.b_csv.setText(_translate("MainWindow", "PushButton"))
         self.label_2.setText(_translate("MainWindow", "Название БД и Роли"))
-        self.label.setText(_translate("MainWindow", "Создание БД и Роли"))
+        self.label.setText(_translate("MainWindow", "Заполнение БД"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_db), _translate("MainWindow", "DB"))
         self.b_mdb.setText(_translate("MainWindow", "Подключение к БД"))
         self.le_mdb.setText(_translate("MainWindow", "farmers_markets1"))

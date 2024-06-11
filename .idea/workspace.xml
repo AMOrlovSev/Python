@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edaca16d-284c-467e-bb00-4f3ea9146d2c" name="Changes" comment="Farmers Markets">
+    <list default="true" id="edaca16d-284c-467e-bb00-4f3ea9146d2c" name="Changes" comment="Eddit">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB.py" beforeDir="false" afterPath="$PROJECT_DIR$/DB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/main_window.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     "Python.__init__.executor": "Debug",
     "Python.main_window.executor": "Run",
     "Python.model.executor": "Run",
-    "Python.view.executor": "Debug",
+    "Python.view.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "F:/ITMO/10_Python/_HW/Python/.venv/Scripts/pyuic6.exe",
@@ -81,10 +79,21 @@
       <option name="presentableId" value="Default" />
       <updated>1718020774245</updated>
     </task>
+    <task id="LOCAL-00001" summary="Eddit">
+      <option name="closed" value="true" />
+      <created>1718119643814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718119643814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Eddit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eddit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
