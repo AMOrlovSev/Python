@@ -2,6 +2,11 @@ import DB
 import util
 from datetime import datetime
 
+# connection=DB.connection_postgres()
+# connection.autocommit = True
+# cursor = connection.cursor()
+
+DB.create_DB_and_Role("farmers_markets1")
 connection=DB.connection_DB("farmers_markets1")
 connection.autocommit = True
 cursor = connection.cursor()

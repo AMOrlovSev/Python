@@ -8,12 +8,18 @@ import DB as db
 import ETL as etl
 
 # для вкладки DB
-def create_bd():
+# def create_bd():
+#     c_db = ui.le_db.text()
+#     etl.create_csv()
+#     db.create_DB_and_Role(c_db)
+#     db.connection_DB(c_db)
+#     db.create_tables_DB(c_db)
+#     db.filling_tables_DB(c_db)
+
+def create_and_filling():
     c_db = ui.le_db.text()
-    etl.create_csv()
-    db.connection_postgres()
-    db.create_DB_and_Role(c_db)
-    db.connection_DB(c_db)
+    # db.create_DB_and_Role(c_db)
+    # db.connection_DB(c_db)
     db.create_tables_DB(c_db)
     db.filling_tables_DB(c_db)
 
@@ -136,7 +142,7 @@ MainWindow.show()
 
 # вкладка DB
 ui.b_csv.clicked.connect(etl.create_csv)
-ui.b_db.clicked.connect(create_bd)
+ui.b_db.clicked.connect(create_and_filling)
 
 # вкладка Markets
 ui.b_mdb.clicked.connect(connection_bd)

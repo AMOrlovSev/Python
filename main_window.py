@@ -36,6 +36,7 @@ class Ui_MainWindow(object):
         self.b_db.setObjectName("b_db")
         self.gridLayout.addWidget(self.b_db, 2, 1, 1, 1)
         self.le_db = QtWidgets.QLineEdit(parent=self.tab_db)
+        self.le_db.setEnabled(False)
         self.le_db.setInputMask("")
         self.le_db.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.le_db.setObjectName("le_db")
@@ -230,7 +231,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

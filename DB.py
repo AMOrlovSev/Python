@@ -25,13 +25,13 @@ def create_DB_and_Role(DB_name):
         with connection.cursor() as cursor:
             connection.autocommit = True
 
-            sql1 = f"""DROP DATABASE IF EXISTS {DB_name}"""
-            cursor.execute(sql1)
+            # sql1 = f"""DROP DATABASE IF EXISTS {DB_name}"""
+            # cursor.execute(sql1)
 
             sql2 = f"""CREATE DATABASE {DB_name}"""
             cursor.execute(sql2)
 
-            sql3 = f"""DROP ROLE IF EXISTS ROLE_{DB_name};
+            sql3 = f"""--DROP ROLE IF EXISTS ROLE_{DB_name};
                         CREATE USER ROLE_{DB_name} WITH PASSWORD 'Pa$$W0rd';
                         ALTER ROLE ROLE_{DB_name} SET client_encoding TO 'utf8';
                         ALTER ROLE ROLE_{DB_name} SET default_transaction_isolation TO 'read committed';
